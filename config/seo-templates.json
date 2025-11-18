@@ -1,0 +1,70 @@
+{
+  "default": {
+    "title": "{{title}} | Seasalt.AI",
+    "description": "{{excerpt}}",
+    "ogTitle": "{{title}}",
+    "ogDescription": "{{excerpt}}",
+    "twitterTitle": "{{title}}",
+    "twitterDescription": "{{excerpt}}"
+  },
+  "blog": {
+    "title": "{{title}} | Seasalt.AI Blog",
+    "description": "{{excerpt}} - {{category}}",
+    "ogTitle": "{{title}}",
+    "ogDescription": "{{excerpt}}"
+  },
+  "product": {
+    "title": "{{title}} - AI Solutions | Seasalt.AI",
+    "description": "{{excerpt}} Discover how Seasalt.AI can help your business.",
+    "ogTitle": "{{title}} - Seasalt.AI",
+    "ogDescription": "{{excerpt}}"
+  },
+  "docs": {
+    "title": "{{title}} - Documentation | Seasalt.AI",
+    "description": "{{excerpt}} Learn more about Seasalt.AI capabilities.",
+    "ogTitle": "{{title}} - Docs",
+    "ogDescription": "{{excerpt}}"
+  },
+  "landing": {
+    "title": "{{title}} | Seasalt.AI - AI Solutions",
+    "description": "{{excerpt}}",
+    "ogTitle": "{{title}}",
+    "ogDescription": "{{excerpt}}"
+  },
+  "languageOverrides": {
+    "zh": {
+      "default": {
+        "title": "{{title}} | Seasalt.AI - 人工智能解决方案",
+        "description": "{{excerpt}}"
+      },
+      "blog": {
+        "title": "{{title}} | Seasalt.AI 博客",
+        "description": "{{excerpt}} - {{category}}"
+      },
+      "product": {
+        "title": "{{title}} - AI解决方案 | Seasalt.AI",
+        "description": "{{excerpt}} 了解Seasalt.AI如何帮助您的业务。"
+      }
+    },
+    "ja": {
+      "default": {
+        "title": "{{title}} | Seasalt.AI - AIソリューション",
+        "description": "{{excerpt}}"
+      },
+      "blog": {
+        "title": "{{title}} | Seasalt.AI ブログ",
+        "description": "{{excerpt}} - {{category}}"
+      }
+    },
+    "es": {
+      "default": {
+        "title": "{{title}} | Seasalt.AI - Soluciones de IA",
+        "description": "{{excerpt}}"
+      },
+      "blog": {
+        "title": "{{title}} | Blog de Seasalt.AI",
+        "description": "{{excerpt}} - {{category}}"
+      }
+    }
+  }
+}

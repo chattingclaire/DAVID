@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://seasalt.ai",
+  "outputDir": "./public",
+  "maxUrlsPerSitemap": 50000,
+  "defaultChangeFreq": "weekly",
+  "defaultPriority": 0.5,
+  "priorityRules": {
+    "landing": 1.0,
+    "product": 0.9,
+    "blog": 0.7,
+    "docs": 0.6
+  },
+  "changeFreqRules": {
+    "landing": "weekly",
+    "product": "weekly",
+    "blog": "monthly",
+    "docs": "weekly"
+  },
+  "excludePatterns": [
+    "/admin/*",
+    "/api/*",
+    "*/draft/*",
+    "*/preview/*"
+  ],
+  "searchEngines": {
+    "google": "https://www.google.com/ping?sitemap=",
+    "bing": "https://www.bing.com/ping?sitemap="
+  }
+}
