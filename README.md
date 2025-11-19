@@ -422,6 +422,4 @@ Contributions welcome! Please read the contributing guidelines first.
 
 For issues and questions, please open an issue on GitHub.
 
----
 
-**Built with ❤️ by Seasalt.AI**
